@@ -1,0 +1,45 @@
+item {
+  id: 1
+  name: 'car'
+}
+
+item {
+  id: 2
+  name: 'truck'
+}
+
+item {
+  id: 3
+  name: 'person'
+}
+
+item {
+  id: 4
+  name: 'traffic sign'
+}
+
+item {
+  id: 5
+  name: 'traffic light'
+}
+
+item {
+  id: 6
+  name: 'bike'
+}
+item {
+  id: 7
+  name: 'rider'
+}
+item {
+  id: 8
+  name: 'bus'
+}
+item {
+  id: 9
+  name: 'motor'
+}
+item {
+  id: 10
+  name: 'train'
+}
