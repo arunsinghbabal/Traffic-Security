@@ -76,10 +76,10 @@ class Visualization:
 
         #  Write the licence plate number if it is available
         if obj.lic_flag is not None and obj.lic_flag == True:
-            cv2.putText(input_frame, 'Licence plate No.=' + str(obj.lic_plate), (left, top - 5), font, font_size,
+            cv2.putText(input_frame, 'Licence plate No.= Suspicious (check csv)', (left, top - 5), font, font_size,
                         (0, 0, 255), 1, cv2.LINE_AA)
         if obj.lic_flag is not None and obj.lic_flag == False:
-            cv2.putText(input_frame, 'Licence plate No.=' + str(obj.lic_plate), (left, top - 5), font, font_size, font_color, 1, cv2.LINE_AA)
+            cv2.putText(input_frame, 'Licence plate No.= Normal', (left, top - 5), font, font_size, font_color, 1, cv2.LINE_AA)
         #  Write the log file
         log.log(log_file, 'Successfully drawn the box and added text detail in visualization function')
 
@@ -211,7 +211,14 @@ class Visualization:
                             lic_text_results = pd.DataFrame(columns=['File_name', 'Date', 'Time', 'Licence_plate_no', 'Flagged'])
                             if flag_plate is not None and len(lic_text_list) > 0:
                                 lic_text_csv_path = os.path.join(self.par_path, 'vehicle_licence_plate_csv/')
-                                ratio = sum(map(lambda x, y: x == y, lic_text_list, flag_plate))/ len(flag_plate)
+                                # Use after improving the video quality and model accuracy 
+                                #ratio = sum(map(lambda x, y: x == y, lic_text_list, flag_plate))/ len(flag_plate)
+                                # Find oveall matching elements in the lists
+                                sum = 0
+                                for i in flag_plate:
+                                    if i in lic_text_list:
+                                        sum += 1
+                                ratio = sum / len(flag_plate)
 
                                 if ratio > 0.5:
                                     lic_results = lic_text_results.append({'File_name': lic_plate_filename, 'Date': str(self.date), 'Time': str(self.cur_time), 'Licence_plate_no': lic_text_list, 'Flagged': 'Yes'}, ignore_index=True)
