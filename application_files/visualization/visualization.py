@@ -194,7 +194,7 @@ class Visualization:
                                         text_bottom = int(box_lic_text[j][2] * height)
                                         text_right = int(box_lic_text[j][3] * width)
                                         anchor2_y = abs(text_top + text_bottom) / 2
-                                        if abs(anchor2_y - anchor_y) < 15:
+                                        if abs(anchor2_y - anchor_y) < 10:
                                             anchor_y = copy.copy(anchor2_y)
                                             lic_char = category_index_lic_text[classses_lic_text[j]]['name']
                                             cv2.rectangle(lic_frame, (text_left, text_top), (text_right, text_bottom),
