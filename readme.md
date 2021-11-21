@@ -14,5 +14,18 @@ By categorizing the vehicles based on the provided flagged licence plates into s
 
 # Project Implementation:
 
+## Install dependencies:
+First create an environment and install the dependencies listed in the **requirements.txt** file. <br />
 
+>(base) Project_folder>**conda create -n "environment_name" python=3.8** # Create an environment <br />
+>(base) Project_folder>**conda activate "environment_name"** # Activate the created environment <br />
+>(environment) Project_folder>**pip install -r requirements.txt** # Install all the dependencies <br />
 
+## Vehicle's classification and traffic frequency:
+For only vehicle classification and their total count run the following commands:
+
+>(base) Project_folder>**Python main.py "VGG"** # To run on VGG16 CNN architecture  <br />
+>
+>(base) Project_folder>**Python main.py "mobile"** # To run on MobileNetV2 CNN architecture  <br />
+
+**Demo video**
