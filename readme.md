@@ -31,8 +31,8 @@ For only vehicle classification and their total count run the following commands
 
 https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-8231-f64b232ef345.mp4
 
-![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463]
-(https://user-images.githubusercontent.com/93785299/142752679-1d5fb879-6d44-4ae0-8d9d-4ec5a19b7721.png)
+
+![image]((https://user-images.githubusercontent.com/93785299/142752679-1d5fb879-6d44-4ae0-8d9d-4ec5a19b7721.png)
 
 
 
