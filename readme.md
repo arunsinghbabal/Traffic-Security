@@ -31,7 +31,7 @@ https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-
 
 
 **Output images**
-![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463](https://user-images.githubusercontent.com/93785299/142752746-aa832c4c-a6c2-434c-a1bd-c4a07483ee13.png)
+![image](https://user-images.githubusercontent.com/93785299/142752746-aa832c4c-a6c2-434c-a1bd-c4a07483ee13.png)
 
 
 
