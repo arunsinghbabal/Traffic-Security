@@ -79,8 +79,8 @@ After Vehicle's classification, traffic frequency and vehicle tracking, it will 
 
 **Demo video**
 
-<br/>
 https://user-images.githubusercontent.com/93785299/142752504-050ae8f9-c1a6-4fce-88da-37526b69a164.mp4
+
 <br />
 
 **Output images**
