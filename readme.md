@@ -10,7 +10,8 @@ To provide vehicle location at a point of time by capturing vehicle image, licen
 By categorizing the vehicles based on the provided flagged licence plates into suspicious and normal. The CSV file contains all the vehicle details including its licence plate number in text format and whether the vehicle is flagged (suspicious or not) for further preprocessing.
 
 # Summary
-![image](https://user-images.githubusercontent.com/93785299/142751217-c7e94de3-33c8-4985-b950-949448dc35b0.png)
+![image](https://user-images.githubusercontent.com/93785299/142752574-f2ce83d0-def3-4eac-afd3-203b19624525.png)
+
 # Project Implementation:
 
 ## Install dependencies:
