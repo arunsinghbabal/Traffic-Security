@@ -74,8 +74,8 @@ After Vehicle's classification, traffic frequency and vehicle tracking, it will 
 >(base) Project_folder>**python main.py "Video+Licence plate+Text"** # To run on **VGG16** CNN architecture  <br />
 **or**<br/>
 >(base) Project_folder>**python main.py "Video+Licence plate+Text" "VGG"** # To run on **VGG16** CNN architecture  <br />
->**or**<br/>
->>(base) Project_folder>**python main.py "Video+Licence plate+Text" "mobile"** # To run on **VGG16** CNN architecture for vehicle's classification, traffic frequency and safety measure and **MobileNetV2** for vehicle tracking <br />
+**or**<br/>
+>(base) Project_folder>**python main.py "Video+Licence plate+Text" "mobile"** # To run on **VGG16** CNN architecture for vehicle's classification, traffic frequency and safety measure and **MobileNetV2** for vehicle tracking <br />
 
 **Demo video**
 
