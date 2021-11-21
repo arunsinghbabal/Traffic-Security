@@ -23,8 +23,33 @@ First create an environment and install the dependencies listed in the **require
 
 ## Vehicle's classification and traffic frequency:
 For only vehicle classification and their total count run the following commands:
+<br/>
+>(base) Project_folder>**python main.py"** # To run on **VGG16** CNN architecture  <br />
+**or**<br/>
+>(base) Project_folder>**python main.py "VGG"** # To run on **VGG16** CNN architecture  <br />
 
->(base) Project_folder>**python main.py "VGG"** # To run on VGG16 CNN architecture  <br />
+**Demo video**
+
+https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-8231-f64b232ef345.mp4
+
+<br />
+
+**Output images**
+ <br />
+**1. Vehicle Image**
+<br/>
+![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463](https://user-images.githubusercontent.com/93785299/142752869-49aa7d68-78c7-409f-bc47-cc17c0113d4b.png)
+<br />
+
+
+## Vehicle tracking:
+It will classify vehicles and count their number along with their images, licence plate and further details. To run, use the following commands:
+<br/>
+>(base) Project_folder>**python main.py "Video+Licence plate"** # To run on **VGG16** CNN architecture  <br />
+**or**<br/>
+>(base) Project_folder>**python main.py "Video+Licence plate" "VGG"** # To run on **VGG16** CNN architecture  <br />
+**or**<br/>
+>(base) Project_folder>**Python main.py "Video+Licence plate" "mobile"** # To run on **MobileNetV2** CNN architecture  <br />
 
 **Demo video**
 
@@ -43,26 +68,33 @@ https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-
 ![Licence plate for car ID_No 2 detected on2021-11-21 at 06_47_17_212563](https://user-images.githubusercontent.com/93785299/142752907-2a6d3f4a-4e5b-4608-8531-5890ee8ca799.png)
 <br />
 
-
-## Vehicle tracking:
-It will classify vehicles and count their number along with their images, licence plate and further details. To run, use the following commands:
-
->(base) Project_folder>**python main.py "Video+Licence plate" "VGG"** # To run on VGG16 CNN architecture  <br />
->
->(base) Project_folder>**Python main.py "Video+Licence plate" "mobile"** # To run on MobileNetV2 CNN architecture  <br />
-
-**Demo video**
-https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-8231-f64b232ef345.mp4
-![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463](https://user-images.githubusercontent.com/93785299/142752679-1d5fb879-6d44-4ae0-8d9d-4ec5a19b7721.png)
-
-
 ## Saftey measures:
 After Vehicle's classification, traffic frequency and vehicle tracking, it will flag the vehicles and give the output in the csv format based on the provided details. To run, use the following commands:
 
->(base) Project_folder>**python main.py "Video+Licence plate+Text" "VGG"** # To run on VGG16 CNN architecture  <br />
+>(base) Project_folder>**python main.py "Video+Licence plate+Text"** # To run on **VGG16** CNN architecture  <br />
+**or**<br/>
+>(base) Project_folder>**python main.py "Video+Licence plate+Text" "VGG"** # To run on **VGG16** CNN architecture  <br />
+>**or**<br/>
+>>(base) Project_folder>**python main.py "Video+Licence plate+Text" "mobile"** # To run on **VGG16** CNN architecture for vehicle's classification, traffic frequency and safety measure and **MobileNetV2** for vehicle tracking <br />
+
 **Demo video**
 
-
+<br/>
 https://user-images.githubusercontent.com/93785299/142752504-050ae8f9-c1a6-4fce-88da-37526b69a164.mp4
+<br />
 
+**Output images**
+ <br />
+**1. Vehicle Image**
+<br/>
+![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463](https://user-images.githubusercontent.com/93785299/142752869-49aa7d68-78c7-409f-bc47-cc17c0113d4b.png)
+<br />
+**2. Licence plate image**
+<br/>
+![Licence plate for car ID_No 2 detected on2021-11-21 at 06_47_17_212563](https://user-images.githubusercontent.com/93785299/142752907-2a6d3f4a-4e5b-4608-8531-5890ee8ca799.png)
+<br />
+**3. Licence plate text**
+<br/>
+![Licence plate for car ID_No 2 detected on2021-11-21 at 07_16_35_185054](https://user-images.githubusercontent.com/93785299/142753307-c900ab54-ed3f-4843-a2e4-463987fd1636.png)
 
+<br />
