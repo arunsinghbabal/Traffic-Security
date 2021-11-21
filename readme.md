@@ -25,13 +25,12 @@ First create an environment and install the dependencies listed in the **require
 For only vehicle classification and their total count run the following commands:
 
 >(base) Project_folder>**python main.py "VGG"** # To run on VGG16 CNN architecture  <br />
->
->(base) Project_folder>**python main.py "mobile"** # To run on MobileNetV2 CNN architecture  <br />
 
 **Demo video**
 
 
 https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-8231-f64b232ef345.mp4
+![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463](https://user-images.githubusercontent.com/93785299/142752679-1d5fb879-6d44-4ae0-8d9d-4ec5a19b7721.png)
 
 
 
@@ -43,6 +42,9 @@ It will classify vehicles and count their number along with their images, licenc
 >(base) Project_folder>**Python main.py "Video+Licence plate" "mobile"** # To run on MobileNetV2 CNN architecture  <br />
 
 **Demo video**
+https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-8231-f64b232ef345.mp4
+![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463](https://user-images.githubusercontent.com/93785299/142752679-1d5fb879-6d44-4ae0-8d9d-4ec5a19b7721.png)
+
 
 ## Saftey measures:
 After Vehicle's classification, traffic frequency and vehicle tracking, it will flag the vehicles and give the output in the csv format based on the provided details. To run, use the following commands:
