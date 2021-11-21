@@ -35,9 +35,11 @@ https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-
 **Output images**
  <br />
 **1. Vehicle Image**
+<br/>
 ![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463](https://user-images.githubusercontent.com/93785299/142752869-49aa7d68-78c7-409f-bc47-cc17c0113d4b.png)
 <br />
-**1. Licence plate image**
+**2. Licence plate image**
+<br/>
 ![Licence plate for car ID_No 2 detected on2021-11-21 at 06_47_17_212563](https://user-images.githubusercontent.com/93785299/142752907-2a6d3f4a-4e5b-4608-8531-5890ee8ca799.png)
 <br />
 
