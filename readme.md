@@ -30,6 +30,10 @@ For only vehicle classification and their total count run the following commands
 **Demo video**
 
 
+https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-8231-f64b232ef345.mp4
+
+
+
 ## Vehicle tracking:
 It will classify vehicles and count their number along with their images, licence plate and further details. To run, use the following commands:
 
