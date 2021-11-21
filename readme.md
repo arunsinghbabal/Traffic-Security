@@ -27,12 +27,19 @@ For only vehicle classification and their total count run the following commands
 >(base) Project_folder>**python main.py "VGG"** # To run on VGG16 CNN architecture  <br />
 
 **Demo video**
+
 https://user-images.githubusercontent.com/93785299/142752542-8ab36bdd-ef0d-4a0e-8231-f64b232ef345.mp4
 
+<br />
 
 **Output images**
-![image](https://user-images.githubusercontent.com/93785299/142752746-aa832c4c-a6c2-434c-a1bd-c4a07483ee13.png)
-
+ <br />
+**1. Vehicle Image**
+![car ID_No 2 is going in direction up on 2021-11-21 at 06_17_42_816463](https://user-images.githubusercontent.com/93785299/142752869-49aa7d68-78c7-409f-bc47-cc17c0113d4b.png)
+<br />
+**1. Licence plate image**
+![Licence plate for car ID_No 2 detected on2021-11-21 at 06_47_17_212563](https://user-images.githubusercontent.com/93785299/142752907-2a6d3f4a-4e5b-4608-8531-5890ee8ca799.png)
+<br />
 
 
 ## Vehicle tracking:
