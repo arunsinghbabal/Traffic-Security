@@ -10,8 +10,7 @@ To provide vehicle location at a point of time by capturing vehicle image, licen
 By categorizing the vehicles based on the provided flagged licence plates into suspicious and normal. The CSV file contains all the vehicle details including its licence plate number in text format and whether the vehicle is flagged (suspicious or not) for further preprocessing.
 
 # Summary
-![image](https://user-images.githubusercontent.com/93785299/142750807-1d8d9817-b9a3-4759-8d44-aef7ecc0af22.png)
-
+![image](https://user-images.githubusercontent.com/93785299/142751217-c7e94de3-33c8-4985-b950-949448dc35b0.png)
 # Project Implementation:
 
 ## Install dependencies:
@@ -24,8 +23,25 @@ First create an environment and install the dependencies listed in the **require
 ## Vehicle's classification and traffic frequency:
 For only vehicle classification and their total count run the following commands:
 
->(base) Project_folder>**Python main.py "VGG"** # To run on VGG16 CNN architecture  <br />
+>(base) Project_folder>**python main.py "VGG"** # To run on VGG16 CNN architecture  <br />
 >
->(base) Project_folder>**Python main.py "mobile"** # To run on MobileNetV2 CNN architecture  <br />
+>(base) Project_folder>**python main.py "mobile"** # To run on MobileNetV2 CNN architecture  <br />
 
 **Demo video**
+
+
+## Vehicle tracking:
+It will classify vehicles and count their number along with their images, licence plate and further details. To run, use the following commands:
+
+>(base) Project_folder>**python main.py "Video+Licence plate" "VGG"** # To run on VGG16 CNN architecture  <br />
+>
+>(base) Project_folder>**Python main.py "Video+Licence plate" "mobile"** # To run on MobileNetV2 CNN architecture  <br />
+
+**Demo video**
+
+## Saftey measures:
+After Vehicle's classification, traffic frequency and vehicle tracking, it will flag the vehicles and give the output in the csv format based on the provided details. To run, use the following commands:
+
+>(base) Project_folder>**python main.py "Video+Licence plate+Text" "VGG"** # To run on VGG16 CNN architecture  <br />
+**Demo video**
+
